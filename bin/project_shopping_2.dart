@@ -12,7 +12,7 @@ void main() async {
   for (int i = 0; i < listData.length; i++) {
     print("\n\x1B[1m\x1B[34mShopping ${i + 1}\x1B[0m\x1B[0m\n");
 
-    print(listData[i]);
+    print(listData[i].type.count[0]);
 
     // print(listData[i]);
   }
